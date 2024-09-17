@@ -1,0 +1,47 @@
+[
+  {
+    "ContainingType": "Shop.Controllers.CustomerController",
+    "Method": "Create",
+    "RelativePath": "v1/customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Shop.Domain.Commands.Requests.CreateCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shop.Domain.Commands.Responses.CreateCustomerResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__1",
+    "RelativePath": "weatherforecast",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WeatherForecast[]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
